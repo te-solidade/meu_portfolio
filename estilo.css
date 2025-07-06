@@ -18,8 +18,11 @@ main {
     margin-top: 30px;
 }
 
-h4 {
+h2 {
     color: rgb(70, 72, 73);
+    text-align: center;
+    background-color: #dea9f1;
+    border-radius: 4px;
 }
 
 .rodape{
@@ -80,5 +83,10 @@ button {
 }
 
 img {border-radius:4px ;
+    padding:2px;
+    text-align: center;
 
+}
+.container {
+    text-align: center;
 }

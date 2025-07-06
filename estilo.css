@@ -1,0 +1,80 @@
+body {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(247, 240, 240);
+    
+}   
+
+main {
+    background-color: rgb(192, 159, 223);
+    padding: 20px;
+    border-radius:5px ;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+h4 {
+    color: rgb(70, 72, 73);
+}
+
+.rodape{
+
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 2rem;
+}
+
+header { 
+    background-color: rgb(90, 235, 90);
+    text-align: center;
+    border-radius: 5px;
+}
+
+form {
+    background-color: rgb(192, 159, 223);
+    border-radius:5px ;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#nome , #email, #mensagem, #assunto {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border 0.3s;
+
+}
